@@ -1,0 +1,16 @@
+{
+  "name": "wallpaper-application",
+  "version": "1.0.0",
+  "description": "This application enables automatic wallpaper changes at specific times",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PGP",
+  "license": "ISC",
+  "dependencies": {
+    "node-cron": "^3.0.2",
+    "wallpaper": "^6.1.1"
+  }
+}
